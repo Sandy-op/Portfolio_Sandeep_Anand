@@ -16,7 +16,6 @@ const Hero = ({ profile }) => {
     return (
         <section id="home" className="relative min-h-screen flex items-center pt-20">
             <div className="max-w-6xl mx-auto px-4 py-12 md:py-24 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                {/* Text content section - reversed order on mobile */}
                 <div className="z-10 order-2 lg:order-1 transform translate-y-0" style={{ transform: `translateY(${scrollY * 0.1}px)` }}>
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
                         Hi, I'm <span className="text-blue-400">{profile.name}</span>
@@ -50,7 +49,6 @@ const Hero = ({ profile }) => {
                     </div>
                 </div>
 
-                {/* Image container - now first on mobile */}
                 <div className="relative z-10 order-1 lg:order-2 flex justify-center lg:block">
                     <div className="relative h-52 w-52 sm:h-64 sm:w-64 md:h-72 md:w-72 lg:h-96 lg:w-96 mx-auto transform rotate-3 hover:rotate-6 transition-transform duration-500">
                         <div className="absolute inset-0 bg-gradient-to-tr from-blue-500 to-purple-600 rounded-2xl shadow-2xl transform -rotate-6 scale-95 opacity-25"></div>

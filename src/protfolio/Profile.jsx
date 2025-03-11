@@ -21,7 +21,7 @@ const Profile = () => {
         linkedin: "https://www.linkedin.com/in/sandeep-anand-0204891a7",
         twitter: "https://x.com/SanCnct404",
         phone: "+91 8340154769",
-        bio: "Innovative software developer with 0-1 years of experience creating robust applications and seamless user experiences. Specialized in front-end development with React.js and modern web technologies."
+        bio: "Innovative & Driven | Code, Create, Conquer. A passionate software developer eager to craft seamless, high-performance applications. With a knack for problem-solving and a hunger for learning, I turn ideas into reality through clean, efficient, and impactful code"
     };
 
     return (
